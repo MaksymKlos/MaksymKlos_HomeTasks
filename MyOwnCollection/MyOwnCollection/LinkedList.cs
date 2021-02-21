@@ -37,7 +37,7 @@ namespace MyOwnCollection
             SetHeadAndTail(item);
         }
         /// <summary>
-        /// Добавить элемент в начало списка
+        /// Добавляет элемент в начало списка.
         /// </summary>
         public void AddFirst(T data)
         {
@@ -52,7 +52,7 @@ namespace MyOwnCollection
             Count++;
         }
         /// <summary>
-        /// Добавление нового элемента списка в конец.
+        /// Добавляет новый элемент в конец списка.
         /// </summary>
         public void AddLast(T data)
         {
@@ -69,7 +69,7 @@ namespace MyOwnCollection
             }
         }
         /// <summary>
-        /// Добавляет элемент после указанного элемента
+        /// Добавляет новый элемент в список после указанного элемента.
         /// </summary>
         public void AddAfter(T target, T data)
         {
@@ -95,7 +95,7 @@ namespace MyOwnCollection
         }
 
         /// <summary>
-        /// Удаление элемента из списка.
+        /// Удаляет элемент из списка.
         /// </summary>
         /// <param name="data">элемент, который будет удалён</param>
         public void Remove(T data)
@@ -132,7 +132,7 @@ namespace MyOwnCollection
             }
         }
         /// <summary>
-        /// Удаление по элемента по указанному индексу.
+        /// Удаляет элемент по указанному индексу.
         /// </summary>
         /// <param name="index">Индекс элемента</param>
         public void RemoveAt(int index)
@@ -180,7 +180,7 @@ namespace MyOwnCollection
             Count = 0;
         }
         /// <summary>
-        /// Выводит на экран элементы списка
+        /// Выводит на экран все элементы списка.
         /// </summary>
         public static void Print(LinkedList<T> list)
         {
