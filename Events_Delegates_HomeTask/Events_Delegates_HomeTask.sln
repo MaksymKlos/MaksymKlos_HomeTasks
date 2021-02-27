@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Events_Delegates_HomeTask\Delegate.csproj", "{BCEF678B-9FC9-4004-8D6F-0F98B5BEA6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{BB1E7E9B-05FD-4D1F-8A88-6DEF29D53AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actions", "Action\Actions.csproj", "{291A41FF-8E8D-4034-9EF1-3002BF7F9A79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCEF678B-9FC9-4004-8D6F-0F98B5BEA6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEF678B-9FC9-4004-8D6F-0F98B5BEA6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEF678B-9FC9-4004-8D6F-0F98B5BEA6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEF678B-9FC9-4004-8D6F-0F98B5BEA6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1E7E9B-05FD-4D1F-8A88-6DEF29D53AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1E7E9B-05FD-4D1F-8A88-6DEF29D53AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1E7E9B-05FD-4D1F-8A88-6DEF29D53AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1E7E9B-05FD-4D1F-8A88-6DEF29D53AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291A41FF-8E8D-4034-9EF1-3002BF7F9A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291A41FF-8E8D-4034-9EF1-3002BF7F9A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291A41FF-8E8D-4034-9EF1-3002BF7F9A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291A41FF-8E8D-4034-9EF1-3002BF7F9A79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64F56005-4A94-4999-9345-CE62A9005DBD}
+	EndGlobalSection
+EndGlobal
