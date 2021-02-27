@@ -30,6 +30,10 @@
             {
                 ProcessString(_currentString);
             }
+            else
+            {
+                _requiresProcessing = true;
+            }
         }
         public void GetStrings(char input)
         {
