@@ -20,14 +20,11 @@ namespace WebApi.Controllers
 
         // GET: api/Student
         [HttpGet]
-        public ActionResult<IEnumerable<Student>> Get()
+      
+        public ActionResult<IEnumerable<StudentDto>> Get()
         {
-            return Ok(_studentService.GetAllStudents());
+            return Ok(_studentService.GetAllStudents().Select(student => StudentDto.FromModel(student)));
         }
-        //public ActionResult<IEnumerable<StudentDto>> Get()
-        //{
-        //    return Ok(_studentService.GetAllStudents().Select(student => StudentDto.FromModel(student)));
-        //}
 
         // GET api/Student/5
         [HttpGet("{id}")]
