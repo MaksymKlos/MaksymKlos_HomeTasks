@@ -36,7 +36,14 @@ namespace WebApi.Controllers
 
             return Ok(CourseDto.FromModel(course));
         }
-        
+        //Post: api/Student
+        [HttpPost]
+        public CourseDto Post(CourseDto course)
+        {
+            var result = _courseService.CreateCourse(course.ToModel());
+            return CourseDto.FromModel(result.Result);
+        }
+
         // PUT api/Course/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] CourseDto value)

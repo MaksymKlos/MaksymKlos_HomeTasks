@@ -38,6 +38,13 @@ namespace WebApi.Controllers
 
             return Ok(HomeTaskDto.FromModel(homeTask));
         }
+        //Post: api/Student
+        [HttpPost]
+        public HomeTaskDto Post(HomeTaskDto homeTask)
+        {
+            var result = _homeTaskService.CreateHomeTask(homeTask.ToModel());
+            return HomeTaskDto.FromModel(result.Result);
+        }
         // PUT api/HomeTask/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] HomeTaskDto value)

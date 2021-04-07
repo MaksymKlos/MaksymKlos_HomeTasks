@@ -39,7 +39,13 @@ namespace WebApi.Controllers
 
             return Ok(StudentDto.FromModel(student));
         }
-        
+        //Post: api/Student
+        [HttpPost]
+        public StudentDto Post(StudentDto student)
+        {
+            var result = _studentService.CreateStudent(student.ToModel());
+            return StudentDto.FromModel(result.Result);
+        }
         // PUT api/Student/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] StudentDto value)
